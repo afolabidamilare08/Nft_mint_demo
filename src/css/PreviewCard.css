@@ -1,0 +1,354 @@
+.PreviewCard{
+    /* border: 10px solid white; */
+    /* width: 636px; */
+    width: 212px;
+    height:268.3px ;
+    /* height:805px ; */
+    background-image: url(../img/card.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 13px;
+    position: relative;
+    /* z-index: 5; */
+}
+
+.PreviewCard-logo{
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.PreviewCard-logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.PreviewCard-main{
+    /* border: 1px solid orange; */
+    /* height: 290px; */
+    /* border-radius: 50px; */
+    width: 80%;
+    margin: 20px auto;
+    /* padding: 18px; */
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+
+.PreviewCard-main-top{
+    margin: 0px auto;
+    width: 100px;
+    /* border: 3px solid white; */
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 4;
+    transform: scale(1.1);
+}
+
+.PreviewCard-main-top-img{
+    /* border: 1px  solid red; */
+    height: 100px;
+    width: 100px;
+    /* margin: -7.5px auto; */
+     /* margin: 0px auto; */
+    position: absolute;
+    top: 0px;
+    transform: scale(0.95);
+    display: flex;
+    left: 0px;
+    object-fit: cover;
+    object-position: bottom; 
+}
+
+.PreviewCard-main-top-img-pic{
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+
+.PreviewCard-main-top-input{
+    display: block;
+    width: 90%;
+    margin: 3px auto;
+    font-size: 9px;
+    text-align: center;
+    border: none;
+    border: 2px solid transparent;
+    padding: 3px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+
+.PreviewCard-main-top-input:focus{
+    outline: none;
+    border: 2px solid orange;
+}
+
+.PreviewCard-main-add{
+    background-color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -7px;
+    left: -4px;
+}
+
+.image-file{
+    color: white;
+    display: none;
+}
+
+.Preview-price-div{
+    color: white;
+    /* font-weight: 700 */
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.Preview-price-div-top{
+  font-size: 12px;
+}
+
+.Preview-price-div-bottom{
+  font-size: 10px;
+  margin-top: -2px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.PreviewCard-main-options{
+    /* border: 1px solid red; */
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.PreviewCard-main-options-link{
+    border: 2px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right:7px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.PreviewCard-main-options-link:last-child{
+    margin-right:0;
+}
+
+.PreviewCard-main-options-link:hover{
+    border: 2px solid white;
+    transform: translateY(-2px);
+}
+
+.PreviewCard-main-occation{
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.PreviewCard-main-eth{
+    /* background-color: #FF007F; */
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    width: fit-content;
+    margin: 4px auto;
+    margin-bottom: -12px;
+    padding: 3px;
+  }
+  
+  .PreviewCard-main-eth-left{
+    /* border: 1px solid red; */
+    width: 17px;
+    height: 17px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .PreviewCard-main-eth-left-img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  
+  .PreviewCard-main-eth-right{
+    /* background-color: ; */
+    border-left: 1px solid white;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    /* padding: 5px; */
+    /* flex-grow:unset ; */
+  }
+  
+  .PreviewCard-main-eth-right-input{
+    width: 50px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border: none;
+    /* height: 100%; */
+    font-weight: 700;
+    font-size: 14px;
+    /* padding: 5px; */
+    /* border: 1px solid white; */
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .PreviewCard-main-eth-right-input::placeholder{
+    color: white;
+  }
+  
+  .PreviewCard-main-eth-right-input:focus{
+    outline: none;
+  }
+  
+  .PreviewCard-main-eth-right-sub{
+    /* text-transform: ; */
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    /* margin-top: 6px; */
+    /* border: 1px solid red; */
+    /* height: fit-content; */
+  }
+  
+
+  .PreviewCard-gift{
+    /* border: 1px solid red; */
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 175px;
+    right: 40px;
+    z-index: 3;
+  }
+
+  .PreviewCard-gift-img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .PreviewCard-gift2{
+    width: 90px;
+    height: 90px;
+  }
+
+  .PreviewCard-gift2-img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 117px;
+    left: 18px;
+    z-index: 3;
+  }
+
+  .PreviewCard-gift3{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -20px;
+    right: -18px;
+    z-index: 3;
+  }
+
+  .PreviewCard-gift4-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 126px;
+    right: 18px;
+    z-index: 3;
+  }
+
+  .PreviewCard-gift3-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Bg-special-image{
+    width: 210px;
+    height: 210px;
+    display: block;
+    position: absolute;
+    top:9px;
+    left:0px;
+  }
+
+  .PreviewCard-code{
+    /* border: 1px solid  red;
+    height: 140px;
+    right: 6px;
+    top: 140px; */
+    display: flex;
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: -3px auto;
+  }
+
+
+
+  .PreviewCard-code-img{
+    width: 100%;
+  }
+
+  .PreviewCard-code-bar{
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    /* color: red; */
+    /* transform: rotate(90deg); */
+  }
+
+  .PreviewCard-code-bar:not(:first-child){
+    margin-left: -9px;
+  }
+
+  .preview-name{
+    /* font-size: ; */
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    color:white;
+    margin:0px auto;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    padding: 3px;
+    /* background-color: rgba(252, 252, 252, 0.603); */
+    /* filter: blur(31px); */
+    width: 100%;
+    /* text-shadow: 0px 0px 39px #fff; */
+  }
+
+  .bg-text{
+    /* border: 1px solid red; */
+    display: block;
+    margin: 4px auto;
+    width: 157.6px;
+    height: 17px;
+  }

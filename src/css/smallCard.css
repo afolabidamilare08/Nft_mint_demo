@@ -1,0 +1,159 @@
+.SmallCard{
+  /* border: 1px solid red; */
+  /* width: 636px; */
+  width: 90.9px;
+  height:115px ;
+  /* height:805px ; */
+  background-image: url(../img/card.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  position: relative;
+  /* z-index: 3; */
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all .5s;
+  /* box-shadow: 0px 0px 19px 5px red; */
+}
+
+.SmallCard:hover.SmallCard-label{
+  display: block;
+}
+
+.SmallCard-label{
+  /* border: 1px solid red; */
+  /* position: absolute; */
+  bottom: -10px;
+  font-size: 9px;
+  font-weight: 700;
+  /* left: 25px; */
+  /* margin: 0 ; */
+  margin-top: 7px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+.SmallCard:hover{
+  /* border: 3px solid orange; */
+  transform: scale(1.4);
+  z-index: 333;
+  box-shadow: 0px 0px 12px 10px rgba(255,165,0,0.75);
+  background-color: rgba(255,165,0,0.75);
+}
+
+
+.SmallCardget:hover{
+  /* border: 3px solid orange; */
+  transform: scale(1.4);
+  z-index: 333;
+  box-shadow: 0px 0px 12px 10px #F30188;
+  background-color: #F30188;
+}
+
+.SmallCardxmas:hover{
+  /* border: 3px solid orange; */
+  transform: scale(1.4);
+  z-index: 333;
+  box-shadow: 0px 0px 12px 10px red ;
+  background-color: red ;
+}
+
+.SmallCardyellow:hover{
+  /* border: 3px solid orange; */
+  transform: scale(1.4);
+  z-index: 333;
+  box-shadow: 0px 0px 12px 10px yellow ;
+  background-color: yellow ;
+}
+
+.SmallCardpurple:hover{
+  /* border: 3px solid orange; */
+  transform: scale(1.4);
+  z-index: 333;
+  box-shadow: 0px 0px 12px 10px purple ;
+  background-color: purple ;
+}
+
+.SmallCardblue:hover{
+  /* border: 3px solid orange; */
+  transform: scale(1.4);
+  z-index: 333;
+  box-shadow: 0px 0px 12px 10px #1964F6 ;
+  background-color: #1964F6 ;
+}
+
+.SmallCard:not(:first-child){
+  /* margin-top: 30px; */
+}
+
+.SmallCard-logo{
+  /* border: 1px solid red; */
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.SmallCard-logo-img{
+  width: 100%;
+  height: 100%;
+}
+
+.SmallCard-box{
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid red; */
+  border-radius: 3px;
+  margin: 9px auto;
+  margin-bottom: 3px;
+  object-fit: cover;
+  object-position: center;
+  padding: 3px;
+}
+
+
+.SmallCard-box-img{
+  width: 100%;
+  height: 100%;
+}
+
+.SmallCard-box-eth{
+  border: 1px solid white;
+  width: 50%;
+  margin: 0px auto;
+  /* height: 12px; */
+  border-radius: 3px;
+  /* background-color: red; */
+}
+
+.SmallCard-box-eth-img{
+  width:7px;
+  height:7px;
+  margin: 3px auto;
+  display: block;
+}
+
+.SmallCard-code{
+  margin: 2px auto;
+  /* margin-top: 2px; */
+  display: flex;
+  justify-content: center;
+}
+
+.SmallCard-code-ic{
+  /* display: inline-block; */
+  /* color: red; */
+  height: 10px;
+  /* margin-bottom: 4px; */
+  /* border: 1px solid red; */
+  padding: -5px;
+}
+
+.SmallCard-code-ic:not(:first-child){
+  margin-left: -9px;
+}

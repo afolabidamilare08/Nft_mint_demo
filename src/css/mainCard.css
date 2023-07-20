@@ -1,0 +1,256 @@
+.MainCard{
+    /* border: 1px solid red; */
+    /* width: 636px; */
+    width: 318px;
+    height:402.5px ;
+    /* height:805px ; */
+    background-image: url(../img/card.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative;
+    /* z-index: 5; */
+}
+
+.MainCard-logo{
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.MainCard-logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.MainCard-main{
+    /* border: 1px solid orange; */
+    height: 290px;
+    border-radius: 50px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.MainCard-main-top{
+    margin: 0px auto;
+    width: 70%;
+    border: 3px solid white;
+    height: 136px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.MainCard-main-top-img{
+    /* border: 1px  solid red; */
+    height: 95px;
+    width: 95px;
+    margin: 5px auto;
+}
+
+.MainCard-main-top-img-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.MainCard-main-top-input{
+    display: block;
+    width: 90%;
+    margin: 3px auto;
+    font-size: 9px;
+    text-align: center;
+    border: none;
+    border: 2px solid transparent;
+    padding: 3px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+
+.MainCard-main-top-input:focus{
+    outline: none;
+    border: 2px solid orange;
+}
+
+.MainCard-main-add{
+    background-color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -7px;
+    left: -4px;
+}
+
+.image-file{
+    color: white;
+    display: none;
+}
+
+.price-div{
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    font-size: 15px;
+}
+
+.MainCard-main-options{
+    /* border: 1px solid red; */
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.MainCard-main-options-link{
+    border: 2px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right:7px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.MainCard-main-options-link:last-child{
+    margin-right:0;
+}
+
+.MainCard-main-options-link:hover{
+    border: 2px solid white;
+    transform: translateY(-2px);
+}
+
+.MainCard-main-occation{
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.MainCard-main-eth{
+    /* background-color: #FF007F; */
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    width: fit-content;
+    margin: 45px auto;
+  }
+  
+  .MainCard-main-eth-left{
+    /* border: 1px solid red; */
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .MainCard-main-eth-left-img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  
+  .MainCard-main-eth-right{
+    background-color: #333;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 5px;
+    /* flex-grow:unset ; */
+  }
+  
+  .MainCard-main-eth-right-input{
+    width: 50px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 100%;
+    font-weight: 600;
+    /* padding: 5px; */
+    /* border: 1px solid white; */
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .MainCard-main-eth-right-input::placeholder{
+    color: white;
+  }
+  
+  .MainCard-main-eth-right-input:focus{
+    outline: none;
+  }
+  
+  .MainCard-main-eth-right-sub{
+    /* text-transform: ; */
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    /* margin-top: 6px; */
+    /* border: 1px solid red; */
+    /* height: fit-content; */
+  }
+  
+
+  .MainCard-gift{
+    /* border: 1px solid red; */
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+  }
+
+  .MainCard-gift-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .MainCard-code{
+    /* border: 1px solid  red; */
+    position: absolute;
+    /* width: 40px; */
+    height: 140px;
+    right: 6px;
+    top: 140px;
+  }
+
+  .MainCard-code-img{
+    width: 100%;
+  }
+
+  .MainCard-code-bar{
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    /* color: red; */
+    transform: rotate(90deg);
+  }
+
+  .preview-name{
+    /* font-size: ; */
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    color:white;
+    margin-top: 7px;
+  }
